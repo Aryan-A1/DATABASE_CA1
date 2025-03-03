@@ -6,9 +6,10 @@ const port = 3003;
 
 app.use(express.json);
 
-app.get('/',async(req,res)=>{
-    try{}
-    catch{}
+
+app.get('/user',async(req,res)=>{
+    console.log('This is Aryan');
+    
 })
 
 
